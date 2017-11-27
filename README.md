@@ -1,0 +1,1 @@
+This shows a piece of translator service that takes up custom binary and then pickles it. Pickled data is sent further down to the chain. Business logic for NDA reasons is taken out and plugged with Rest in type Header struct {}

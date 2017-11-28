@@ -13,6 +13,10 @@ import (
 	"io/ioutil"*/
 	"reflect"
 )
+/*
+So, instead of packing everything into struct, I could create an interface with a read method and then create a separate type with different custom sepcific types. And then implement a read method for each type.
+
+*/
 
 type Header struct { /*todo-ad05bzag what if i type out the header as one massive slice and then just keep on chopping it?*/
 	//StartHeaderA																		[4]byte //35,35 empty empty dec 23,23,0,0 hex
